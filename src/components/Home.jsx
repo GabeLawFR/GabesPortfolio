@@ -20,8 +20,8 @@ export default function Home() {
           <div>
             <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-fuchsia-500 to-purple-500 cursor-pointer">
               Portfolio
-              <span className="group-hover:rotate-90 duration-300 ml-1">
-                <LiaArrowRightSolid size={25} />
+              <span className="group-hover:rotate-90 duration-300">
+                <LiaArrowRightSolid size={20} className="ml-1"/>
               </span>
             </button>
           </div>
