@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div
       name="home"
-      class="h-screen w-full bg-gradient-to-b from-black via-black to-purple-900"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-purple-900"
     >
       <div className="max-w-screen-lg mx-auto mb-3 flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
