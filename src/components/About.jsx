@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div
       name="about"
-      className="w-full h-screen  bg-gradient-to-b from-purple-900 to-red-500"
+      className="w-full h-screen bg-gradient-to-b from-purple-900 to-red-500 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="mt-48 sm:mt-0 pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-400">
             About Me
           </p>
