@@ -12,7 +12,7 @@ export default function About() {
             About Me
           </p>
         </div>
-      <p className="text-xl mt-20 text-gray-200">
+      <p className="text-xl text-gray-200">
         Software Developer, dedicated and motivated team-player, yearning to
         optimize tools and work environment. Thrives to solve complex problems,
         may they be human or technical, with critical-thinking, empathy and

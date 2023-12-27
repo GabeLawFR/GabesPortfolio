@@ -8,14 +8,19 @@ export default function Portfolio() {
     {
       id: 1,
       src: OnlineGallerie,
+      gitLink: "https://github.com/Groupe3-Capstone-Project/CapstoneProject",
     },
     {
       id: 2,
       src: Strangers,
+      gitLink: "https://github.com/GabeLawFR/StrangersThings",
+      demoLink: "https://strangers-things-gl.netlify.app/",
     },
     {
-      id: 1,
+      id: 3,
       src: PuppyBowl,
+      gitLink: "https://github.com/GabeLawFR/PuppyBowl_React",
+      demoLink: "https://puppybowl-react-gl.netlify.app/",
     },
   ];
 
@@ -33,7 +38,7 @@ export default function Portfolio() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, gitLink, demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
               <img
                 src={src}
@@ -41,12 +46,22 @@ export default function Portfolio() {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  href={gitLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

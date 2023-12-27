@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../assets/IMG/AvatarImage.png";
+import Avatar from "../assets/IMG/heroImageFix.jpeg";
 import { LiaArrowRightSolid } from "react-icons/lia";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
             <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-fuchsia-500 to-purple-500 cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <LiaArrowRightSolid size={20} className="ml-1"/>
+                <LiaArrowRightSolid size={20} className="ml-1" />
               </span>
             </button>
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
           <img
             src={Avatar}
             alt="myAvatar"
-            className="rounded-2xl mt-2 mx-auto w-3/6 md:w-2/4"
+            className="rounded-2xl mt-16 mx-auto w-3/6 md:w-2/4 shadow-purple-200 shadow-md ring-2"
           />
         </div>
       </div>
