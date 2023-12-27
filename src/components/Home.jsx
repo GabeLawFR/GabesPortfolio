@@ -31,7 +31,7 @@ export default function Home() {
           <img
             src={Avatar}
             alt="myAvatar"
-            className="rounded-2xl mt-16 mx-auto w-3/6 md:w-2/4 shadow-purple-200 shadow-md ring-2"
+            className="rounded-2xl mt-16 mx-auto w-3/6 md:w-2/4 ring-2 ring-gray-200"
           />
         </div>
       </div>
