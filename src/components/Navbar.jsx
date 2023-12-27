@@ -37,7 +37,7 @@ export default function Navbar() {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200 hover:text-xl"
           >
             {link}
           </li>
@@ -53,7 +53,7 @@ export default function Navbar() {
       {nav && (
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black bg-opacity-80 text-gray-200">
         {links.map(({ id, link }) => (
-          <li key={id} className="px-4 cursor-pointer py-6 capitalize text-4xl hover:scale-125 duration-200">
+          <li key={id} className="px-4 cursor-pointer my-4 py-6 capitalize text-4xl hover:scale-125 duration-200 rounded-xl shadow-md shadow-purple-300 backdrop-blur-sm">
             <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}
