@@ -15,7 +15,16 @@ export default function Home() {
             FullStack Developer
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            Hi, I'm Gabe, a passionate full-stack developer with a keen eye for front-end aesthetics and a robust back-end foundation.
+            Hi, I'm {''} 
+            <a
+              href="https://soundcloud.com/gablawson"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300"
+            >
+              Gabe
+            </a>
+            , a passionate full-stack developer with a keen eye for front-end aesthetics and a robust back-end foundation.
           </p>
 
           <div>
