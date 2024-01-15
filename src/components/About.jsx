@@ -13,21 +13,17 @@ export default function About() {
           </p>
         </div>
       <p className="text-xl text-gray-200">
-        Software Developer, dedicated and motivated team-player, yearning to
-        optimize tools and work environment. Thrives to solve complex problems,
-        may they be human or technical, with critical-thinking, empathy and
-        patience. Resilient creative collaborator, effective in time-management
-        and multitasking while attentive to details.
+      Hi ! 
+        My name is Gabriel Lawson, recently graduated from the rigorous online coding bootcamp FullStack Academy. Armed with a love for learning, teamwork and commitment to creating innovative solutions, my coding adventure has equipped me with a robust skill set encompassing both front-end and back-end technologies. I have a knack for quickly absorbing new skills, a trait that proved invaluable during the immersive bootcamp experience, and a will to always learn more.
       </p>
       <br />
       <p className="text-xl
       text-gray-200">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-        voluptate ea ratione magnam nesciunt fugiat esse voluptatum commodi ab,
-        minus itaque id, nam natus, nostrum eveniet exercitationem sit non
-        repellat neque suscipit beatae qui dolore perferendis? Tempora ad ipsa
-        veritatis, tempore magni nam et minima quisquam, nesciunt unde culpa
-        fugiat.
+        Software Developer, dedicated and motivated team-player, yearning to
+        optimize tools and work environment. I thrives to solve complex problems,
+        may they be human or technical, with critical-thinking, empathy and
+        patience. Resilient creative collaborator, effective in time-management
+        and multitasking while attentive to details.
       </p>
       </div>
     </div>

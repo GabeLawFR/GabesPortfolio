@@ -15,7 +15,7 @@ export default function Home() {
             FullStack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm super cool, nice and efficient, and also French with a capital f
+            Hi, I'm Gabe, a passionate full-stack developer with a keen eye for front-end aesthetics and a robust back-end foundation.
           </p>
 
           <div>

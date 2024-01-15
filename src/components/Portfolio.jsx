@@ -1,5 +1,5 @@
 import React from "react";
-import OnlineGallerie from "../assets/Projects/OnlineGallerie.png";
+import OnlineGallerie from "../assets/Projects/OGtrim.png";
 import Strangers from "../assets/Projects/Strangers.png";
 import PuppyBowl from "../assets/Projects/PuppyBowl.png";
 
@@ -34,7 +34,7 @@ export default function Portfolio() {
           <p className="text-4xl font-bold inline border-b-4 border-blue-400">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work here</p>
+          <p className="py-6">Check out some of my work here :</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -43,7 +43,7 @@ export default function Portfolio() {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="w-full h-auto max-h-40 object-cover rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <a
