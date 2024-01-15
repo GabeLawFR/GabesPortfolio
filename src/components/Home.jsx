@@ -14,7 +14,7 @@ export default function Home() {
           <h2 className="text-4xl sm:text-7xl font-bold text-white mt-20">
             FullStack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-300 py-4 max-w-md">
             Hi, I'm Gabe, a passionate full-stack developer with a keen eye for front-end aesthetics and a robust back-end foundation.
           </p>
 
