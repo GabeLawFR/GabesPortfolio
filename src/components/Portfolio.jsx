@@ -33,7 +33,7 @@ export default function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-red-500 to-blue-500 w-full text-gray-200 md:h-screen"
+      className="bg-gradient-to-b from-red-500 to-blue-500 w-full text-gray-200 md:h-screen pt-2"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

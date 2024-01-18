@@ -41,7 +41,7 @@ export default function ContactMe() {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <div className="mt-8 rounded-md border p-2">
+          <div className="mt-8 rounded-md border shadow-xl shadow-purple-500 p-2 hover:shadow-white duration-300">
             <h2 className="text-2xl font-bold mb-2">Get in Touch !</h2>
             <table className="text-white">
               <tbody>
@@ -51,7 +51,7 @@ export default function ContactMe() {
                 </tr>
                 <tr className="">
                   <td>Email:</td>
-                  <td className="pl-4 w-full rounded-lg hover:scale-105 duration-300 hover:text-purple-400">
+                  <td className="pl-4 w-full rounded-lg hover:text-purple-400">
                     <a 
                     href="mailto:gabriel.lawson@live.fr">
                       gabriel.lawson@live.fr
@@ -60,7 +60,7 @@ export default function ContactMe() {
                 </tr>
                 <tr>
                   <td>LinkedIn:</td>
-                  <td className="pl-4 w-full rounded-lg hover:scale-105 duration-300 hover:text-purple-400 hover:z-10">
+                  <td className="pl-4 w-full rounded-lg hover:text-purple-400 hover:z-10">
                     <a
                       href="https://www.linkedin.com/in/gabriel-lawson/"
                       target="_blank"
@@ -73,7 +73,7 @@ export default function ContactMe() {
               </tbody>
             </table>
           </div>
-          <p className="py-6">Or submit the form below :</p>
+          <p className="py-6 pt-8">Or submit the form below :</p>
         </div>
         <div className="flex justify-center items-center">
           <form
