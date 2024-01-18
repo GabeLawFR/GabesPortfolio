@@ -12,20 +12,32 @@ export default function About() {
             About Me
           </p>
         </div>
-      <p className="text-xl text-gray-200">
-      Hi ! 
-        My name is Gabriel Lawson, recently graduated from the rigorous online coding bootcamp FullStack Academy. Armed with a love for learning, teamwork and commitment to creating innovative solutions, my coding adventure has equipped me with a robust skill set encompassing both front-end and back-end technologies. I have a knack for quickly absorbing new skills, a trait that proved invaluable during the immersive bootcamp experience, and a will to always learn more.
-      </p>
-      <br />
-      <p className="text-xl
-      text-gray-200">
-        Software Developer, dedicated and motivated team-player, yearning to
-        optimize tools and work environment. I thrives to solve complex problems,
-        may they be human or technical, with critical-thinking, empathy and
-        patience. Resilient creative collaborator, effective in time-management
-        and multitasking while attentive to details.
-      </p>
+        <p className="text-xl text-gray-200">
+          Greetings! I am Gabriel Lawson, a recent graduate of FullStack
+          Academy—an immersive online coding bootcamp. My educational journey
+          through this demanding program has cultivated a profound passion for
+          intricate problem-solving and a resolute commitment to crafting
+          innovative solutions.
+        </p>
+        <br />
+        <p className="text-xl text-gray-200">
+          As a Software Developer, I bring forth a dedicated and motivated
+          approach to my work, thriving within collaborative team environments.
+          My expertise spans both front-end and back-end technologies, refined
+          through hands-on projects and a steadfast commitment to continuous
+          learning. My capacity to swiftly assimilate new skills has proven
+          instrumental during the dynamic bootcamp experience.
+        </p>
+        <br />
+        <p className="text-xl text-gray-200">
+          I specialize in the optimization of tools and environments,
+          approaching challenges with a harmonious blend of critical thinking,
+          empathy, and patience. As a resilient and inventive collaborator, I
+          excel in effective time-management and multitasking, always
+          maintaining meticulous attention to detail.
+        </p>
       </div>
+      <div></div>
     </div>
   );
 }
