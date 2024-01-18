@@ -60,7 +60,7 @@ export default function Navbar() {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer my-4 py-6 capitalize text-4xl hover:scale-125 duration-200 rounded-xl shadow-md shadow-purple-300 backdrop-blur-sm"
+              className="px-4 w-1/3 text-center cursor-pointer my-4 py-6 capitalize text-4xl hover:scale-125 duration-200 rounded-xl shadow-md shadow-purple-300 backdrop-blur-sm"
             >
               <Link
                 onClick={() => setNav(!nav)}
