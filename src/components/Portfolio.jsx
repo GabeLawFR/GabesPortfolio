@@ -40,7 +40,8 @@ export default function Portfolio() {
           <p className="text-4xl font-bold inline border-b-4 border-blue-400">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work here :</p>
+          <p className="pt-6">Check out some of my work here :</p>
+          <p className="pb-6">(Work in progress, more to come soon!)</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
