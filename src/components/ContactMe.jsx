@@ -41,20 +41,31 @@ export default function ContactMe() {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <div className="mt-8 rounded-md border shadow-xl shadow-purple-500 p-2 hover:shadow-white duration-300">
-            <h2 className="text-2xl font-bold mb-2">Get in Touch !</h2>
+          <div className="mt-8 rounded-md border shadow-xl shadow-purple-500 p-2 hover:shadow-white duration-300 md:w-1/2 mx-auto">
+            <h2 className="text-2xl text-center font-bold mb-2">Get in Touch !</h2>
             <table className="text-white">
-              <tbody>
+              <tbody className="">
                 <tr>
                   <td>Phone:</td>
                   <td className="pl-4">(805)-452-4075</td>
                 </tr>
-                <tr className="">
+                <tr>
                   <td>Email:</td>
                   <td className="pl-4 w-full rounded-lg hover:text-purple-400">
-                    <a 
-                    href="mailto:gabriel.lawson@live.fr">
+                    <a href="mailto:gabriel.lawson@live.fr">
                       gabriel.lawson@live.fr
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Resume:</td>
+                  <td className="pl-4 w-full rounded-lg hover:text-purple-400 hover:z-10">
+                    <a
+                      href="/glResume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Right here
                     </a>
                   </td>
                 </tr>

@@ -42,11 +42,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <img
             src={Avatar}
             alt="myAvatar"
-            className="rounded-2xl  mx-auto mb-5 w-3/6 md:w-2/4  ring-2 ring-gray-200"
+            className="rounded-2xl mb-20 md:mb-5 mx-auto w-3/6 md:w-2/4 ring-2 ring-gray-200"
           />
         </div>
       </div>
