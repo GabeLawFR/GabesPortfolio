@@ -40,7 +40,7 @@ export default function Socials() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/glResume.pdf",
+      href: "/GabeLawsonResume.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -31,7 +31,7 @@ export default function ContactMe() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-purple-900 p-4 text-white "
+      className="w-full h-screen bg-gradient-to-b from-black via-black to-purple-900 text-white"
     >
       <div
         className="flex
@@ -42,7 +42,9 @@ export default function ContactMe() {
             Contact Me
           </p>
           <div className="mt-8 rounded-md border shadow-xl shadow-purple-500 p-2 hover:shadow-white duration-300 md:w-1/2 mx-auto">
-            <h2 className="text-2xl text-center font-bold mb-2">Get in Touch !</h2>
+            <h2 className="text-2xl text-center font-bold mb-2">
+              Get in Touch !
+            </h2>
             <table className="text-white">
               <tbody className="">
                 <tr>
@@ -61,7 +63,7 @@ export default function ContactMe() {
                   <td>Resume:</td>
                   <td className="pl-4 w-full rounded-lg hover:text-purple-400 hover:z-10">
                     <a
-                      href="/glResume.pdf"
+                      href="/GabeLawsonResume.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -78,6 +80,18 @@ export default function ContactMe() {
                       rel="noopener noreferrer"
                     >
                       linkedin.com/in/gabriel-lawson/
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>GitHub:</td>
+                  <td className="pl-4 w-full rounded-lg hover:text-purple-400 hover:z-10">
+                    <a
+                      href="https://github.com/GabeLawFR"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      github.com/GabeLawFR
                     </a>
                   </td>
                 </tr>
