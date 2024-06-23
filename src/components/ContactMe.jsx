@@ -54,8 +54,8 @@ export default function ContactMe() {
                 <tr>
                   <td>Email:</td>
                   <td className="pl-4 w-full rounded-lg hover:text-purple-400">
-                    <a href="mailto:gabriel.lawson@live.fr">
-                      gabriel.lawson@live.fr
+                    <a href="mailto:gabethewebdev@gmail.com">
+                      gabethewebdev@gmail.com
                     </a>
                   </td>
                 </tr>

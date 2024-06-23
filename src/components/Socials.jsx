@@ -31,7 +31,7 @@ export default function Socials() {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:gabriel.lawson@live.fr",
+      href: "mailto:gabethewebdev@gmail.com",
     },
     {
       id: 4,
